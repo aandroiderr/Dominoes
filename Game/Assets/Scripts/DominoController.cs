@@ -128,15 +128,6 @@ public class DominoController : MonoBehaviour
         {
             GetComponent<SpriteRenderer>().sprite = dominoFactory.CloneSprite(29);
         }
-        //if (Input.GetMouseButtonUp(0))
-        //{
-        //    isPicked = false;
-        //    transform.position = initialPosition;
-        //}
-        //if (isPicked && Input.GetMouseButton(0))
-        //{
-        //    transform.position = new Vector3(position.x, position.y);
-        //}
     }
 
     public void SetUpperLowerValues(int upper, int lower)

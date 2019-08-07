@@ -8,9 +8,9 @@ public class DominoFactoryController : MonoBehaviour
 
     public Sprite CloneSprite(int index)
     {
-        if (index > sprites.Length)
+        if (index > /*sprites.Length*/27)
         {
-            return null;
+            index = 27;
         }
         return Instantiate<Sprite>(sprites[index]);
     }
