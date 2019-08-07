@@ -2,7 +2,7 @@
 
 namespace Model
 {
-    public struct WinLoseStatusModel
+    public class WinLoseStatusModel
     {
         public int wins;
         public int loses;
